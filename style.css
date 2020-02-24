@@ -1,0 +1,26 @@
+* {  box-sizing: border-box; }
+html { font-size: 10px; font-family: 'Oxygen'; }
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+
+}
+
+.signin-button {
+    margin-left: 8px;
+    background-color: #0077C5;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.35rem;
+}
+
+.forgot-pwd-text { color: #505050; font-size: 1.2rem; }
+.forgot-pwd a { 
+    text-decoration: none; 
+    color: #0077C5; 
+    font-size: 1.2rem;
+}
