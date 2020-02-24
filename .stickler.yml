@@ -3,5 +3,6 @@ linters:
     display_cop_names: true
   csslint:
   stylelint:
+  config: './stylelint.config'
   eslint:
     config: './eslint.config'

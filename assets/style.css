@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Oxygen";
+  src: url("font/Oxygen-Light.ttf") format("ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Oxygen';
+  background-color: #eceef1;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #4c4c4c;
+  line-height: 1.1;
+}
+
+small {
+  font-size: 1.3rem;
+}
+
+.bg-blue {
+  background-color: #0077c5;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.signin-button {
+  margin-left: 8px;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.35rem;
+}
+
+.forgot-pwd-text {
+  color: #505050;
+  font-size: 1.2rem;
+}
+
+.forgot-pwd a {
+  text-decoration: none;
+  color: #0077c5;
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 400px;
+  border: 1px solid #8395a7;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img { margin: 20px; }
+
+.icon-container { margin-bottom: 10px; }
+
+.icon-container ul {
+  margin: 0;
+  padding: 0;
+}
+
+.icon-container ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.form { background-color: #fff; }
+
+.form-input-bx { padding: 25px; }
+
+.form-group { margin: 15px 0; }
+
+label {
+  font-size: 1.4rem;
+  color: #404040;
+}
+
+.inputbx {
+  width: 100%;
+  border: 1px solid #c8d6e5;
+  border-radius: 5px;
+  margin-top: 7px;
+  padding: 10px;
+}
+
+.btn-submit {
+  color: #fff;
+  font-size: 1.57rem;
+  margin-bottom: 10px;
+}
+
+.align-txt { text-align: center; }
+
+.align-txt p {
+  line-height: 1.6;
+  font-size: 1.2rem;
+  color: #757575;
+}
+
+.align-txt a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.form-footer {
+  background-color: #eceef1;
+  color: #8b9096;
+  padding: 20px 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #505050;
+  margin-bottom: 25px;
+}
+
+.footer ul {
+  margin: 25px 0 5px 0;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #505050;
+}
