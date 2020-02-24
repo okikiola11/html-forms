@@ -4,63 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
     <title>Html Forms</title>
 </head>
 <body>
 
     <header class="header">
-        <div class="forgot-pwd">
-            <span class="forgot-pwd-text">Already have an intuit account?</span></br>
+        <summary class="forgot-pwd">
+            <div class="forgot-pwd-text">Already have an intuit account?</div>
             <a href="">I forgot my user ID or password</a>
-        </div>
+        </summary>
         <button class="signin-button bg-blue"> <i class="fa fa-lock"></i> Sign In</button>
     </header>
 
     <main>
         <section class="container">
             <div class="flexbox logo-img">
-                <img src="assets/images/logo.PNG" alt="Company Logo">
+                <img src="assets/images/logo.png" alt="Company Logo"/>
             </div>
 
             <div class="flexbox icon-container">                
                 <ul>
                     <li>
-                        <img src="assets/images/icon-1.PNG" alt="Mint Icon">  
+                        <img src="assets/images/icon-1.png" alt="Mint Icon"/>  
                     </li>
                     <li>
-                        <img src="assets/images/icon-2.PNG" alt="Quickbook Icon">  
+                        <img src="assets/images/icon-2.png" alt="Quickbook Icon"/>  
                     </li>
                     <li>
-                        <img src="assets/images/icon-3.PNG" alt="Turbotax Icon">
+                        <img src="assets/images/icon-3.png" alt="Turbotax Icon"/>
                     </li>
                 </ul>
             </div>
 
             <form class="form">
                 <div class="form-input-bx">
-                    <div class="align-txt">
+                    <details class="align-txt">
                         <h2> Create an Intuit account</h2>
                         <small>One account for everything Intuit, including Mint.
                             <br>
                             <a href=""> Learn more </a>
                         </small>
-                    </div>
+                    </details>
     
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" name="email" class="inputbx" />    
+                        <input type="email" name="email" class="inputbx" id="email" />    
                     </div>
     
                     <div class="form-group">
                         <label for="phone">Phone (recommended)</label>
-                        <input type="text" name="phone" class="inputbx" />
+                        <input type="text" name="phone" class="inputbx" id="phone" />
                     </div>
     
                     <div class="form-group">
                         <label for="password">Password</label>
-                        <input type="password" name="password" class="inputbx" />
+                        <input type="password" name="password" class="inputbx" id="password" />
                     </div>
     
                     <button type="submit" class="inputbx btn-submit bg-blue">
@@ -88,14 +87,14 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <ul>
             <li><a href="#">Legal</a></li>
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Security</a></li>
         </ul>
         <small>
-            &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            &copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </small>
     </footer>
