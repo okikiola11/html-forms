@@ -2,7 +2,7 @@
 
 > Creating HTML form elements.
 
-![screenshot](images/screenshot.PNG)
+![screenshot](assets/images/screenshot.PNG)
 
 This project shows the format of building an HTML Form that matches mints.com's sign up form. 
 
