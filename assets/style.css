@@ -1,15 +1,10 @@
-@font-face {
-  font-family: "Oxygen";
-  src: url("font/Oxygen-Light.ttf") format("ttf");
-}
-
 * {
   box-sizing: border-box;
 }
 
 html {
   font-size: 10px;
-  font-family: 'Oxygen';
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #eceef1;
 }
 
@@ -74,22 +69,21 @@ main {
 .logo-img { margin: 20px; }
 
 .icon-container { margin-bottom: 10px; }
+.icon-container-logo { display: flex; }
 
-.icon-container ul {
-  margin: 0;
-  padding: 0;
-}
-
-.icon-container ul li {
-  display: inline-block;
-  padding-right: 10px;
+.icon-container-txt {
+  display: flex;
+  margin-top: 4px;
+  font-size: 1.7rem;
+  padding-right: 15px;
+  color: #757575;
 }
 
 .form { background-color: #fff; }
 
 .form-input-bx { padding: 25px; }
 
-.form-group { margin: 15px 0; }
+.form-group { margin: 25px 0; }
 
 label {
   font-size: 1.4rem;
@@ -102,6 +96,20 @@ label {
   border-radius: 5px;
   margin-top: 7px;
   padding: 10px;
+}
+
+#phone {
+  margin-bottom: 2px;
+}
+
+.phone-txt {
+  color: #757575;
+}
+
+#password {
+  background: url(images/pwd.PNG) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+  background-position: right center;
 }
 
 .btn-submit {
