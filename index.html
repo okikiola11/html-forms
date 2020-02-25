@@ -10,10 +10,10 @@
 <body>
 
     <header class="header">
-        <summary class="forgot-pwd">
+        <div class="forgot-pwd">
             <div class="forgot-pwd-text">Already have an intuit account?</div>
             <a href="">I forgot my user ID or password</a>
-        </summary>
+        </div>
         <button class="signin-button bg-blue"> <i class="fa fa-lock"></i> Sign In</button>
     </header>
 
@@ -23,18 +23,21 @@
                 <img src="assets/images/logo.png" alt="Company Logo"/>
             </div>
 
-            <div class="flexbox icon-container">                
-                <ul>
-                    <li>
-                        <img src="assets/images/icon-1.png" alt="Mint Icon"/>  
-                    </li>
-                    <li>
-                        <img src="assets/images/icon-2.png" alt="Quickbook Icon"/>  
-                    </li>
-                    <li>
-                        <img src="assets/images/icon-3.png" alt="Turbotax Icon"/>
-                    </li>
-                </ul>
+            <div class="flexbox icon-container"> 
+                <div class="icon-container-logo">
+                    <img src="assets/images/icon-1.png" alt="Mint Icon"/>
+                </div>   
+                <div class="icon-container-txt">mint</div>
+
+                <div class="icon-container-logo">
+                    <img src="assets/images/icon-2.png" alt="Quickbook Icon"/>
+                </div>  
+                <div class="icon-container-txt">quickbook</div>
+
+                <div class="icon-container-logo">
+                    <img src="assets/images/icon-3.png" alt="Turbotax Icon"/>
+                </div> 
+                <div class="icon-container-txt">turbotax</div>       
             </div>
 
             <form class="form">
@@ -54,11 +57,13 @@
     
                     <div class="form-group">
                         <label for="phone">Phone (recommended)</label>
-                        <input type="text" name="phone" class="inputbx" id="phone" />
+                        <input type="tel" name="phone" class="inputbx" id="phone" />
+                        <small class="phone-txt">Standard call, messaging or data rates may apply.</small>
                     </div>
     
                     <div class="form-group">
                         <label for="password">Password</label>
+                        <i class="fal fa-lock-open-alt"></i>
                         <input type="password" name="password" class="inputbx" id="password" />
                     </div>
     
