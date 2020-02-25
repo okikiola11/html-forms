@@ -11,11 +11,6 @@ This project shows the format of building an HTML Form that matches mints.com's 
 - html, css, javascript
 - vscode
 
-## Live Demo
-
-[Live Demo Link]()
-
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
