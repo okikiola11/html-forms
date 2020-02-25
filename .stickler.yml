@@ -1,4 +1,3 @@
 linters:
   stylelint:
-    # indicate where is the config file for stylelint
     config: 'stylelint.config.js'
